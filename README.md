@@ -1,6 +1,8 @@
 # Spotify Basic
 This demo shows how we can connect to the [Spotify API](https://developer.spotify.com/) using the [Client Credentials](https://developer.spotify.com/documentation/web-api/tutorials/client-credentials-flow) OAuth flow. 
 
+
+
 ## Backend
 The backend `server.js` uses a simple [Express](https://expressjs.com) app to publish a `/token` endpoint. It exposes a fresh Spotify Token on demand. It does this by forwarding the token request to Spotify. It assumes that we will store our spotify credentials as server environment variables. 
 
